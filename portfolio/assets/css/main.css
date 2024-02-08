@@ -1719,6 +1719,15 @@ canvas.particles-js-canvas-el {
   header{
     width: 80px;
   }
+  .about .personal-info ul li {
+      margin-bottom: 0;
+  }
+  .about .personal-info ul li p{
+      margin-bottom: 6px;
+  }
+  .about .personal-info span{
+    display: inline;
+  }
 }
 
 @media (max-width: 575px) {
@@ -1731,9 +1740,9 @@ canvas.particles-js-canvas-el {
   .hero-01 .display-content, .hero-02 .display-content, .hero-03 .display-content, .hero-04 .display-content, .hero-05 .display-content {
     display: table-cell;
   }
-  .about .personal-info span {
+  /* .about .personal-info span {
     display: block;
-  }
+  } */
   .language-bar .list-inline-item:not(:last-child) {
     margin-right: .25rem;
   }
