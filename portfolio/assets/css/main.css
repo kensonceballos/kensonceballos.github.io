@@ -1710,6 +1710,10 @@ canvas.particles-js-canvas-el {
     z-index: 1040;
     transform: none;
   }
+  
+  .max-width-450{
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 767px) {
