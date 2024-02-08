@@ -1675,7 +1675,7 @@ canvas.particles-js-canvas-el {
     font-size: 22px;
   }
   header {
-    left: -90px;
+    left: -180px;
     transition: all 0.3s ease;
   }
   header.open {
